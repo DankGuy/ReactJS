@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+
+* {
+    color: white;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+body {
+    background-color: #120a33;
+}
+
+.clockdisplay-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
