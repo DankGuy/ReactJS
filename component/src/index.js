@@ -16,7 +16,7 @@ const App = () => {
             <CommentDetail 
             author="James" 
             timeAgo={ faker.date.past().toLocaleTimeString(navigator.language, {hour: '2-digit', minute:'2-digit'}) } 
-            contentText={ faker.lorem.sentence()} 
+            contentText={ faker.lorem.sentence() } 
             avatar={ faker.image.avatar() }
             />
         </div>
